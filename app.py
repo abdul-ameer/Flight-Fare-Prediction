@@ -3,9 +3,9 @@ from flask_cors import cross_origin
 import sklearn
 import pickle
 import pandas as pd
-
+import _pickle as cPickle
 app = Flask(__name__)
-model = pickle.load(open("flight_rf.pkl", "rb"))
+model = cPickle.load(open("Flight_Fare.pkl", "rb"))
 
 
 
