@@ -5,7 +5,7 @@ import pickle
 import pandas as pd
 import _pickle as cPickle
 app = Flask(__name__)
-model = cPickle.load(open("Flight_Fare.pkl", "rb"))
+model = pickle.load(open("Flight_Fare.pkl", "rb"))
 
 
 
