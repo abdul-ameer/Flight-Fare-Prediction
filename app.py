@@ -5,7 +5,7 @@ import pickle
 import pandas as pd
 import _pickle as cPickle
 app = Flask(__name__)
-model = cPickle.load(open("flight_rf1.pkl", "rb"))
+model = cPickle.load(open("flight_rf.pkl", "rb"))
 
 
 
