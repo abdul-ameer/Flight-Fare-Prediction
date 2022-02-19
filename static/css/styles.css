@@ -46,3 +46,10 @@ ul {
 }
 
 
+.social-icon i {
+    transition: 0.4s all
+}
+
+.social-icon:hover i {
+    transform: scale(1.1)
+}
