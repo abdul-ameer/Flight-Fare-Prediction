@@ -17,11 +17,6 @@ a:hover {
 
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
-ul {
-    list-style: none;
-    display: flex;
-    margin-bottom: 0
-}
 
 .social-icon {
     height: 30px;
